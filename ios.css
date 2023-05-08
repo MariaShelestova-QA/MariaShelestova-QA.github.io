@@ -1,10 +1,12 @@
 body {
+  font-family: "Helvetica";
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   max-width: 100%;
   background: url(Fon.png) no-repeat center top fixed;
+  background-size:cover;
 }
 
 .header {
@@ -254,6 +256,7 @@ button {
     justify-content: center;
     display: grid;
     max-height: 600px;
+    max-width: 370px;
     gap: 0;
   }
 }
